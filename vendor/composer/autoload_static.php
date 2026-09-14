@@ -11,64 +11,64 @@ class ComposerStaticInitd32468a6dc8b49a9e23d58b5b70a3ea1
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WyriHaximus\\HtmlCompress\\' => 25,
             'WebSharks\\CssMinifier\\' => 22,
         ),
-        'P' => 
+        'P' =>
         array (
             'Patchwork\\' => 10,
         ),
-        'M' => 
+        'M' =>
         array (
             'MatthiasMullie\\PathConverter\\' => 29,
             'MatthiasMullie\\Minify\\' => 22,
         ),
-        'G' => 
+        'G' =>
         array (
             'Grav\\Plugin\\HTMLMinifier\\' => 25,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WyriHaximus\\HtmlCompress\\' => 
+        'WyriHaximus\\HtmlCompress\\' =>
         array (
             0 => __DIR__ . '/..' . '/wyrihaximus/html-compress/src',
         ),
-        'WebSharks\\CssMinifier\\' => 
+        'WebSharks\\CssMinifier\\' =>
         array (
             0 => __DIR__ . '/..' . '/websharks/css-minifier/src/includes/classes',
         ),
-        'Patchwork\\' => 
+        'Patchwork\\' =>
         array (
             0 => __DIR__ . '/..' . '/patchwork/jsqueeze/src',
         ),
-        'MatthiasMullie\\PathConverter\\' => 
+        'MatthiasMullie\\PathConverter\\' =>
         array (
             0 => __DIR__ . '/..' . '/matthiasmullie/path-converter/src',
         ),
-        'MatthiasMullie\\Minify\\' => 
+        'MatthiasMullie\\Minify\\' =>
         array (
             0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
         ),
-        'Grav\\Plugin\\HTMLMinifier\\' => 
+        'Grav\\Plugin\\HTMLMinifier\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'Y' => 
+        'Y' =>
         array (
-            'YUI' => 
+            'YUI' =>
             array (
                 0 => __DIR__ . '/..' . '/jalle19/php-yui-compressor/lib',
             ),
         ),
-        'J' => 
+        'J' =>
         array (
-            'JShrink' => 
+            'JShrink' =>
             array (
                 0 => __DIR__ . '/..' . '/tedivm/jshrink/src',
             ),
