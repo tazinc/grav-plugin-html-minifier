@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=8.3.0",
-    "wyrihaximus/html-compress": "^1.4"
+    "wyrihaximus/html-compress": "^4"
   },
   "autoload": {
     "psr-4": {
@@ -30,7 +30,7 @@
   },
   "config": {
     "platform": {
-      "php": "8.4.0"
+      "php": "8.4"
     }
   }
 }

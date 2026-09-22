@@ -4,111 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96e0d9d4bed912b6c408adb2d0c9c6c3",
+    "content-hash": "3e0d08377cdaa964f8802bddf126c4e0",
     "packages": [
-        {
-            "name": "jalle19/php-yui-compressor",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Jalle19/php-yui-compressor.git",
-                "reference": "eb88c4f7fd8d7c8bd15a1970611d67cca11f71a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Jalle19/php-yui-compressor/zipball/eb88c4f7fd8d7c8bd15a1970611d67cca11f71a0",
-                "reference": "eb88c4f7fd8d7c8bd15a1970611d67cca11f71a0",
-                "shasum": ""
-            },
-            "require": {
-                "nervo/yuicompressor": "2.4.*",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "YUI": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "description": "A modern PHP wrapper for the YUI compressor",
-            "homepage": "https://github.com/Jalle19/php-yui-compressor",
-            "keywords": [
-                "JS",
-                "css",
-                "minify",
-                "yui"
-            ],
-            "support": {
-                "issues": "https://github.com/Jalle19/php-yui-compressor/issues",
-                "source": "https://github.com/Jalle19/php-yui-compressor/tree/1.0.1"
-            },
-            "time": "2014-06-03T12:02:11+00:00"
-        },
-        {
-            "name": "linkorb/jsmin-php",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/linkorb/jsmin-php.git",
-                "reference": "be85d87fc9c27730e7e9ced742b13010dafc1026"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/linkorb/jsmin-php/zipball/be85d87fc9c27730e7e9ced742b13010dafc1026",
-                "reference": "be85d87fc9c27730e7e9ced742b13010dafc1026",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Joost Faassen",
-                    "email": "j.faassen@linkorb.com",
-                    "role": "Packaging for Composer"
-                },
-                {
-                    "name": "Ryan Grove",
-                    "email": "ryan@wonko.com",
-                    "role": "PHP port"
-                },
-                {
-                    "name": "Adam Gofort",
-                    "email": "aag@adamgoforth.com",
-                    "role": "Updates to the PHP port"
-                },
-                {
-                    "name": "Douglas Crockford",
-                    "email": "douglas@crockford.com"
-                }
-            ],
-            "description": "Unofficial package of jsmin-php",
-            "homepage": "http://www.github.com/linkorb/jsmin-php",
-            "keywords": [
-                "javascript",
-                "jsmin",
-                "minify"
-            ],
-            "support": {
-                "issues": "https://github.com/linkorb/jsmin-php/issues",
-                "source": "https://github.com/linkorb/jsmin-php/tree/1.0.0"
-            },
-            "time": "2013-03-15T13:16:35+00:00"
-        },
         {
             "name": "matthiasmullie/minify",
             "version": "1.3.75",
@@ -275,31 +172,97 @@
             "time": "2013-03-25T21:54:33+00:00"
         },
         {
-            "name": "natxet/cssmin",
-            "version": "v3.0.6",
+            "name": "pear/net_url2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/natxet/CssMin.git",
-                "reference": "d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd"
+                "url": "https://github.com/pear/Net_URL2.git",
+                "reference": "c1f2b316ed9b05e881cdb494f7550ddf817c76c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/natxet/CssMin/zipball/d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd",
-                "reference": "d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd",
+                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/c1f2b316ed9b05e881cdb494f7550ddf817c76c8",
+                "reference": "c1f2b316ed9b05e881cdb494f7550ddf817c76c8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.0"
+                "php": ">=5.1.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "Net/URL2.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Klingenberg",
+                    "email": "tkli@php.net"
+                },
+                {
+                    "name": "David Coallier",
+                    "email": "davidc@php.net"
+                },
+                {
+                    "name": "Christian Schmidt",
+                    "email": "chmidt@php.net"
+                }
+            ],
+            "description": "Class for parsing and handling URL. Provides parsing of URLs into their constituent parts (scheme, host, path etc.), URL generation, and resolving of relative URLs.",
+            "homepage": "https://github.com/pear/Net_URL2",
+            "keywords": [
+                "PEAR",
+                "net",
+                "networking",
+                "rfc3986",
+                "uri",
+                "url"
+            ],
+            "support": {
+                "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_URL2",
+                "source": "https://github.com/pear/Net_URL2"
+            },
+            "time": "2025-03-24T08:03:00+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v7.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
+                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -308,105 +271,42 @@
             ],
             "authors": [
                 {
-                    "name": "Joe Scylla",
-                    "email": "joe.scylla@gmail.com",
-                    "homepage": "https://profiles.google.com/joe.scylla"
-                }
-            ],
-            "description": "Minifying CSS",
-            "homepage": "http://code.google.com/p/cssmin/",
-            "keywords": [
-                "css",
-                "minify"
-            ],
-            "support": {
-                "issues": "https://github.com/natxet/CssMin/issues",
-                "source": "https://github.com/natxet/CssMin/tree/master"
-            },
-            "time": "2018-01-09T11:15:01+00:00"
-        },
-        {
-            "name": "nervo/yuicompressor",
-            "version": "2.4.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nervo/yuicompressor.git",
-                "reference": "e6e3b215c3998cf6092613c002ae533ae75d7ada"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nervo/yuicompressor/zipball/e6e3b215c3998cf6092613c002ae533ae75d7ada",
-                "reference": "e6e3b215c3998cf6092613c002ae533ae75d7ada",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "description": "YUI Compressor is an open source tool that supports the compression of both JavaScript and CSS files. The JavaScript compression removes comments and white-spaces as well as obfuscates local variables using the smallest possible variable name. CSS compression is done using a regular-expression-based CSS minifier.",
-            "homepage": "https://github.com/yui/yuicompressor",
-            "keywords": [
-                "java",
-                "yui"
-            ],
-            "support": {
-                "issues": "https://github.com/nervo/yuicompressor/issues",
-                "source": "https://github.com/nervo/yuicompressor/tree/master"
-            },
-            "time": "2013-09-13T10:26:14+00:00"
-        },
-        {
-            "name": "patchwork/jsqueeze",
-            "version": "v2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tchwork/jsqueeze.git",
-                "reference": "693d64850eab2ce6a7c8f7cf547e1ab46e69d542"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/jsqueeze/zipball/693d64850eab2ce6a7c8f7cf547e1ab46e69d542",
-                "reference": "693d64850eab2ce6a7c8f7cf547e1ab46e69d542",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Patchwork\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(Apache-2.0 or GPL-2.0)"
-            ],
-            "authors": [
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
                 {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Efficient JavaScript minification in PHP",
-            "homepage": "https://github.com/tchwork/jsqueeze",
-            "keywords": [
-                "compression",
-                "javascript",
-                "minification"
-            ],
+            "description": "Converts CSS selectors to XPath expressions",
+            "homepage": "https://symfony.com",
             "support": {
-                "issues": "https://github.com/tchwork/jsqueeze/issues",
-                "source": "https://github.com/tchwork/jsqueeze/tree/master"
+                "source": "https://github.com/symfony/css-selector/tree/v7.4.18"
             },
-            "abandoned": true,
-            "time": "2016-04-19T09:28:22+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-08-23T10:03:40+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -469,6 +369,354 @@
             "time": "2025-11-20T14:34:30+00:00"
         },
         {
+            "name": "thecodingmachine/safe",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/safe.git",
+                "reference": "705683a25bacf0d4860c7dea4d7947bfd09eea19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/705683a25bacf0d4860c7dea4d7947bfd09eea19",
+                "reference": "705683a25bacf0d4860c7dea4d7947bfd09eea19",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpstan/phpstan": "^2",
+                "phpunit/phpunit": "^10",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/special_cases.php",
+                    "generated/apache.php",
+                    "generated/apcu.php",
+                    "generated/array.php",
+                    "generated/bzip2.php",
+                    "generated/calendar.php",
+                    "generated/classobj.php",
+                    "generated/com.php",
+                    "generated/cubrid.php",
+                    "generated/curl.php",
+                    "generated/datetime.php",
+                    "generated/dir.php",
+                    "generated/eio.php",
+                    "generated/errorfunc.php",
+                    "generated/exec.php",
+                    "generated/fileinfo.php",
+                    "generated/filesystem.php",
+                    "generated/filter.php",
+                    "generated/fpm.php",
+                    "generated/ftp.php",
+                    "generated/funchand.php",
+                    "generated/gettext.php",
+                    "generated/gmp.php",
+                    "generated/gnupg.php",
+                    "generated/hash.php",
+                    "generated/ibase.php",
+                    "generated/ibmDb2.php",
+                    "generated/iconv.php",
+                    "generated/image.php",
+                    "generated/imap.php",
+                    "generated/info.php",
+                    "generated/inotify.php",
+                    "generated/json.php",
+                    "generated/ldap.php",
+                    "generated/libxml.php",
+                    "generated/lzf.php",
+                    "generated/mailparse.php",
+                    "generated/mbstring.php",
+                    "generated/misc.php",
+                    "generated/mysql.php",
+                    "generated/mysqli.php",
+                    "generated/network.php",
+                    "generated/oci8.php",
+                    "generated/opcache.php",
+                    "generated/openssl.php",
+                    "generated/outcontrol.php",
+                    "generated/pcntl.php",
+                    "generated/pcre.php",
+                    "generated/pgsql.php",
+                    "generated/posix.php",
+                    "generated/ps.php",
+                    "generated/pspell.php",
+                    "generated/readline.php",
+                    "generated/rnp.php",
+                    "generated/rpminfo.php",
+                    "generated/rrd.php",
+                    "generated/sem.php",
+                    "generated/session.php",
+                    "generated/shmop.php",
+                    "generated/sockets.php",
+                    "generated/sodium.php",
+                    "generated/solr.php",
+                    "generated/spl.php",
+                    "generated/sqlsrv.php",
+                    "generated/ssdeep.php",
+                    "generated/ssh2.php",
+                    "generated/stream.php",
+                    "generated/strings.php",
+                    "generated/swoole.php",
+                    "generated/uodbc.php",
+                    "generated/uopz.php",
+                    "generated/url.php",
+                    "generated/var.php",
+                    "generated/xdiff.php",
+                    "generated/xml.php",
+                    "generated/xmlrpc.php",
+                    "generated/yaml.php",
+                    "generated/yaz.php",
+                    "generated/zip.php",
+                    "generated/zlib.php"
+                ],
+                "classmap": [
+                    "lib/DateTime.php",
+                    "lib/DateTimeImmutable.php",
+                    "lib/Exceptions/",
+                    "generated/Exceptions/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
+            "support": {
+                "issues": "https://github.com/thecodingmachine/safe/issues",
+                "source": "https://github.com/thecodingmachine/safe/tree/v3.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/OskarStark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/shish",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/silasjoisten",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/staabm",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-02-04T18:08:13+00:00"
+        },
+        {
+            "name": "tubalmartin/cssmin",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "cogpowered/finediff": "0.3.*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "bin": [
+                "cssmin"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "tubalmartin\\CssMin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Túbal Martín",
+                    "homepage": "http://tubalmartin.me/"
+                }
+            ],
+            "description": "A PHP port of the YUI CSS compressor",
+            "homepage": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port",
+            "keywords": [
+                "compress",
+                "compressor",
+                "css",
+                "cssmin",
+                "minify",
+                "yui"
+            ],
+            "support": {
+                "issues": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port/issues",
+                "source": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"
+            },
+            "time": "2018-01-15T15:26:51+00:00"
+        },
+        {
+            "name": "voku/html-min",
+            "version": "4.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/HtmlMin.git",
+                "reference": "872dac444652d30791ca5d0c23fbe1e6b9cab5bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voku/HtmlMin/zipball/872dac444652d30791ca5d0c23fbe1e6b9cab5bc",
+                "reference": "872dac444652d30791ca5d0c23fbe1e6b9cab5bc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=7.0.0",
+                "voku/simple_html_dom": "~4.8.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "voku\\": "src/voku/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "https://www.moelleken.org/"
+                }
+            ],
+            "description": "HTML Compressor and Minifier",
+            "homepage": "https://github.com/voku/HtmlMin",
+            "keywords": [
+                "compress",
+                "compression",
+                "compressor",
+                "html",
+                "minifier"
+            ],
+            "support": {
+                "issues": "https://github.com/voku/HtmlMin/issues",
+                "source": "https://github.com/voku/HtmlMin/tree/4.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2024-05-25T08:01:45+00:00"
+        },
+        {
+            "name": "voku/simple_html_dom",
+            "version": "4.8.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/simple_html_dom.git",
+                "reference": "716822ed52ed3a1881542be07a786270de390e99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/716822ed52ed3a1881542be07a786270de390e99",
+                "reference": "716822ed52ed3a1881542be07a786270de390e99",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "php": ">=7.0.0",
+                "symfony/css-selector": "~3.0 || ~4.0 || ~5.0 || ~6.0 || ~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+            },
+            "suggest": {
+                "voku/portable-utf8": "If you need e.g. UTF-8 fixed output."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "voku\\helper\\": "src/voku/helper/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dimabdc",
+                    "email": "support@titor.ru",
+                    "homepage": "https://github.com/dimabdc",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "https://www.moelleken.org/",
+                    "role": "Fork-Maintainer"
+                }
+            ],
+            "description": "Simple HTML DOM package.",
+            "homepage": "https://github.com/voku/simple_html_dom",
+            "keywords": [
+                "HTML Parser",
+                "dom",
+                "php dom"
+            ],
+            "support": {
+                "issues": "https://github.com/voku/simple_html_dom/issues",
+                "source": "https://github.com/voku/simple_html_dom/tree/4.8.10"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/voku/simple_html_dom",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-07-03T16:05:14+00:00"
+        },
+        {
             "name": "websharks/css-minifier",
             "version": "150820",
             "source": {
@@ -527,35 +775,270 @@
             "time": "2015-08-21T03:19:25+00:00"
         },
         {
-            "name": "wyrihaximus/html-compress",
-            "version": "1.4.0",
+            "name": "wikimedia/minify",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/WyriHaximus/HtmlCompress.git",
-                "reference": "0c2207ceaa711b93e1d33551cbb7b1ba6cd1e975"
+                "url": "https://github.com/wikimedia/mediawiki-libs-Minify.git",
+                "reference": "fdf9a3f31f21e17fddfbe079a9c62bafb96f3265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/HtmlCompress/zipball/0c2207ceaa711b93e1d33551cbb7b1ba6cd1e975",
-                "reference": "0c2207ceaa711b93e1d33551cbb7b1ba6cd1e975",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-Minify/zipball/fdf9a3f31f21e17fddfbe079a9c62bafb96f3265",
+                "reference": "fdf9a3f31f21e17fddfbe079a9c62bafb96f3265",
                 "shasum": ""
             },
             "require": {
-                "jalle19/php-yui-compressor": "^1.0",
-                "linkorb/jsmin-php": "1.0.0",
-                "matthiasmullie/minify": "^1.3",
-                "meenie/javascript-packer": "1.1",
-                "natxet/cssmin": "^3.0",
-                "patchwork/jsqueeze": "~1.0|~2.0",
-                "php": "^7.0 || ^5.6",
-                "tedivm/jshrink": "^1.3",
-                "websharks/css-minifier": "150820"
+                "ext-fileinfo": "*",
+                "ext-mbstring": "*",
+                "pear/net_url2": "~2.2.2",
+                "php": ">=8.1"
             },
             "require-dev": {
-                "phake/phake": "^1.0",
-                "phpunit/phpunit": "^4.0",
-                "squizlabs/php_codesniffer": "^1.0",
-                "vectorface/dunit": "^2.0"
+                "mck89/peast": "^1.16",
+                "mediawiki/mediawiki-codesniffer": "52.0.0",
+                "mediawiki/mediawiki-phan-config": "0.20.0",
+                "mediawiki/minus-x": "2.0.1",
+                "ockcyp/covers-validator": "1.7.0",
+                "php-parallel-lint/php-console-highlighter": "1.0.0",
+                "php-parallel-lint/php-parallel-lint": "1.4.0",
+                "phpunit/phpunit": "10.5.63",
+                "wikimedia/testing-access-wrapper": "~4.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CSSMin": "src/"
+                },
+                "psr-4": {
+                    "Wikimedia\\Minify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Copperman",
+                    "email": "paul.copperman@gmail.com"
+                },
+                {
+                    "name": "Trevor Parscal",
+                    "email": "tparscal@wikimedia.org"
+                },
+                {
+                    "name": "Timo Tijhof",
+                    "email": "krinklemail@gmail.com"
+                },
+                {
+                    "name": "Roan Kattouw",
+                    "email": "roan.kattouw@gmail.com"
+                }
+            ],
+            "description": "Minification of JavaScript code and CSS stylesheets.",
+            "homepage": "https://gerrit.wikimedia.org/g/mediawiki/libs/Minify",
+            "support": {
+                "source": "https://github.com/wikimedia/mediawiki-libs-Minify/tree/2.12.0"
+            },
+            "time": "2026-09-22T14:28:26+00:00"
+        },
+        {
+            "name": "wyrihaximus/compress",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/php-compress.git",
+                "reference": "95a56454223fc5ec9f8f59bb99e33f0b8b7a8f70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/php-compress/zipball/95a56454223fc5ec9f8f59bb99e33f0b8b7a8f70",
+                "reference": "95a56454223fc5ec9f8f59bb99e33f0b8b7a8f70",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4",
+                "wyrihaximus/compress-contracts": "^1.0"
+            },
+            "require-dev": {
+                "wyrihaximus/compress-test-utilities": "^3.2.0",
+                "wyrihaximus/makefiles": "^0.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\Compress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Compress marker interface and utility compressors",
+            "keywords": [
+                "compress"
+            ],
+            "support": {
+                "issues": "https://github.com/WyriHaximus/php-compress/issues",
+                "source": "https://github.com/WyriHaximus/php-compress/tree/2.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-08-23T18:44:31+00:00"
+        },
+        {
+            "name": "wyrihaximus/compress-contracts",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/php-compress-contracts.git",
+                "reference": "73386a44d0c3c7d672350fc39f183c4e2fa4410c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/php-compress-contracts/zipball/73386a44d0c3c7d672350fc39f183c4e2fa4410c",
+                "reference": "73386a44d0c3c7d672350fc39f183c4e2fa4410c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8 || ^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\Compress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Compress marker interface",
+            "keywords": [
+                "compress"
+            ],
+            "support": {
+                "issues": "https://github.com/WyriHaximus/php-compress-contracts/issues",
+                "source": "https://github.com/WyriHaximus/php-compress-contracts/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-24T16:04:52+00:00"
+        },
+        {
+            "name": "wyrihaximus/css-compress",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/php-css-compress.git",
+                "reference": "94511b624d9079fa4c9f02d40d6f1378640331fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/php-css-compress/zipball/94511b624d9079fa4c9f02d40d6f1378640331fe",
+                "reference": "94511b624d9079fa4c9f02d40d6f1378640331fe",
+                "shasum": ""
+            },
+            "require": {
+                "matthiasmullie/minify": "^1.3",
+                "php": "^8.4",
+                "tubalmartin/cssmin": "^4.1",
+                "websharks/css-minifier": "150820",
+                "wikimedia/minify": "^2.9",
+                "wyrihaximus/compress": "^2.2",
+                "wyrihaximus/compress-contracts": "^1.0"
+            },
+            "conflict": {
+                "matthiasmullie/minify": "1.3.64"
+            },
+            "require-dev": {
+                "wyrihaximus/compress-test-utilities": "^3.2.0",
+                "wyrihaximus/makefiles": "^0.6.0",
+                "wyrihaximus/test-utilities": "^8.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\CssCompress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Compress/minify your CSS",
+            "keywords": [
+                "compress",
+                "html"
+            ],
+            "support": {
+                "issues": "https://github.com/WyriHaximus/php-css-compress/issues",
+                "source": "https://github.com/WyriHaximus/php-css-compress/tree/2.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-08-22T18:19:26+00:00"
+        },
+        {
+            "name": "wyrihaximus/html-compress",
+            "version": "4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/HtmlCompress.git",
+                "reference": "48e38bd2c1e8f3c81b3c86b98ed13f0de2da0783"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/HtmlCompress/zipball/48e38bd2c1e8f3c81b3c86b98ed13f0de2da0783",
+                "reference": "48e38bd2c1e8f3c81b3c86b98ed13f0de2da0783",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "thecodingmachine/safe": "^2.2 || ^3.0",
+                "voku/html-min": "^4.5.1",
+                "voku/simple_html_dom": "^4.8.9",
+                "wyrihaximus/compress": "^2.0",
+                "wyrihaximus/compress-contracts": "^1",
+                "wyrihaximus/css-compress": "^2",
+                "wyrihaximus/js-compress": "^5"
+            },
+            "require-dev": {
+                "wyrihaximus/test-utilities": "^6.0.7"
             },
             "type": "library",
             "autoload": {
@@ -581,9 +1064,75 @@
             ],
             "support": {
                 "issues": "https://github.com/WyriHaximus/HtmlCompress/issues",
-                "source": "https://github.com/WyriHaximus/HtmlCompress/tree/master"
+                "source": "https://github.com/WyriHaximus/HtmlCompress/tree/4.4.0"
             },
-            "time": "2018-01-03T21:15:44+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-06-24T05:54:16+00:00"
+        },
+        {
+            "name": "wyrihaximus/js-compress",
+            "version": "5.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/php-js-compress.git",
+                "reference": "9a7e59b8b8fa203e0dd9d419c18dd80d952f3256"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/php-js-compress/zipball/9a7e59b8b8fa203e0dd9d419c18dd80d952f3256",
+                "reference": "9a7e59b8b8fa203e0dd9d419c18dd80d952f3256",
+                "shasum": ""
+            },
+            "require": {
+                "matthiasmullie/minify": "^1.3",
+                "meenie/javascript-packer": "1.1",
+                "php": "^8",
+                "tedivm/jshrink": "^1.3",
+                "wyrihaximus/compress": "^1.2 || ^2.0",
+                "wyrihaximus/compress-contracts": "^1.0"
+            },
+            "require-dev": {
+                "wyrihaximus/compress-test-utilities": "^2",
+                "wyrihaximus/test-utilities": "^5.0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\JsCompress\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Compress/minify your JavaScript",
+            "keywords": [
+                "compress",
+                "html"
+            ],
+            "support": {
+                "issues": "https://github.com/WyriHaximus/php-js-compress/issues",
+                "source": "https://github.com/WyriHaximus/php-js-compress/tree/5.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/WyriHaximus",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-03-19T21:09:52+00:00"
         }
     ],
     "packages-dev": [],
@@ -593,11 +1142,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1.3"
+        "php": ">=8.3.0"
     },
     "platform-dev": {},
     "platform-overrides": {
-        "php": "7.1.3"
+        "php": "8.4"
     },
     "plugin-api-version": "2.9.0"
 }
